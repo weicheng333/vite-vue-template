@@ -13,5 +13,5 @@ console.log(import.meta.env.VITE_APP_VERSION, '---env')
 app.config.errorHandler = (err) => {
   console.log(err)
 }
-
+console.log('111')
 app.mount('#app')
