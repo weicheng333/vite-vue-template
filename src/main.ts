@@ -14,5 +14,5 @@ app.config.errorHandler = (err) => {
   console.log(err)
 }
 
-
+console.log("222")
 app.mount('#app')
