@@ -9,7 +9,7 @@ InitPinia(app)
 InitRouter(app)
 
 console.log(import.meta.env.VITE_APP_VERSION, '---env')
-
+console.log("newS")
 app.config.errorHandler = (err) => {
   console.log(err)
 }
